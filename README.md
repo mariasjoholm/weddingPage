@@ -26,10 +26,10 @@ Webbformulär som skickar svar till en bröllopsmejl. **Obligatoriska fält**: f
 
 <img src="screenshots/storform.png" alt="OSA-formulär i desktopvy alla fält synliga" width="500">
 <img src="screenshots/fel.png" alt="Validering exempel på felmeddelanden i OSA-formuläret" width="500">
-<br>
+
 <img src="screenshots/litenform1.png" alt="OSA-formulär i mobilvy sida 1" width="500">
 <img src="screenshots/litenform2.png" alt="OSA-formulär i mobilvy sida 2" width="500">
-<br>
+
 <img src="screenshots/korrektform1.png" alt="OSA-formulär korrekt ifyllt steg 1" width="500">
 <img src="screenshots/korrektform2.png" alt="OSA-formulär korrekt ifyllt steg 2" width="500">
 
