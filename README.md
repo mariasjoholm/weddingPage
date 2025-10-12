@@ -5,7 +5,7 @@ Detta är gjort med js kod, html och css och målet var att göra den responsiv.
 
 ## Screenshots med funktioner 
 **Startskärm dator**  
-Här är olika storlekar på startskärmen så att man kan användad en på olika klienter:<br>
+Här är olika storlekar på startskärmen så att man kan användad en på olika klienter, oavsett storlek finns det en timer som visar hur lång tid det är kvar innan bröllopet:<br>
 <br>
 <img src="screenshots/1stor.png" alt="" width="500">
 <img src="screenshots/2stor.png" alt="" width="500">
