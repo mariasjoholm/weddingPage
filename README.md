@@ -28,17 +28,14 @@ Enkelt formulär som skickas som ett mejl till en bröllopsmejl. Med requre på 
 <img src="screenshots/korrektform2.png" alt="" width="500">
 <br>
 **Plats och hotell**  
-Information om vart  vigsel samt bröllopsfesten ska vara och tips på hotell:<br>
+Information om vart  vigsel samt bröllopsfesten ska vara och tips på hotell med google maps plats så att man bara kan trycka på bilden så kommer det upp direkt i google maps, dessa är utbytta till andra platser:<br>
 <img src="screenshots/1platser.png" alt="" width="500">
 <img src="screenshots/2platser.png" alt="" width="500">
 <br>
-**T**  
-:<br>
-<img src="screenshots/" alt="" width="500">
-<br>
-**T**  
-:<br>
-<img src="screenshots/" alt="" width="500">
+**Viktig information**  
+Visar viktig information om bröllopet ser lite olika ut beroende på skärmstorlek:<br>
+<img src="screenshots/viktigtstort.png" alt="" width="500">
+<img src="screenshots/viktigtmellan.png" alt="" width="500">
 <br>
 **T**  
 :<br>
