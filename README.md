@@ -6,13 +6,15 @@ Detta är gjort med js kod, html och css och målet var att göra den responsiv.
 ## Screenshots med funktioner 
 **Startskärm dator**  
 Här är olika storlekar på startskärmen så att man kan användad en på olika klienter:<br>
-<img src="screenshots/1stor.png" alt="" width="500">
-<img src="screenshots/2stor.png" alt="" width="500">
+<br>
+<img src="screenshots/1stor.png" alt="" width="700">
+<img src="screenshots/2stor.png" alt="" width="700">
 
 **Startskärm padda storlek och mobil**  
 Här är andra olika storlekar på startskärmen så att man kan användad en på olika klienter:<br>
-<img src="screenshots/3mellan.png" alt="" width="500">
-<img src="screenshots/4liten.png" alt="" width="500">
+<br>
+<img src="screenshots/3mellan.png" alt="" width="700">
+<img src="screenshots/4liten.png" alt="" width="700">
 **T**  
 :<br>
 <img src="screenshots/" alt="" width="400">
