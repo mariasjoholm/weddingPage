@@ -39,7 +39,7 @@ Visar viktig information om bröllopet ser lite olika ut beroende på skärmstor
 <br>
 **Kontakta toastmaster**  
 Sista delen är att kunna kontakta toastmaster denna har också en honeypot då det går direkt till ens vänners mejl för att undvika att de får robot mejl. :<br>
-<img src="screenshots/kontakatoast1.png" alt="" width="500">
+<img src="screenshots/kontaktatoast1.png" alt="" width="500">
 <img src="screenshots/kontaktatoast2.png" alt="" width="500">
 <br>
 **Hjälp för användaren pga mejlto**  
