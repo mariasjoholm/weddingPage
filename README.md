@@ -9,12 +9,13 @@ Här är olika storlekar på startskärmen så att man kan användad en på olik
 <br>
 <img src="screenshots/1stor.png" alt="" width="500">
 <img src="screenshots/2stor.png" alt="" width="500">
-
+<br>
 **Startskärm padda storlek och mobil**  
 Här är andra olika storlekar på startskärmen så att man kan användad en på olika klienter:<br>
 <br>
 <img src="screenshots/3mellan.png" alt="" width="700">
 <img src="screenshots/4liten.png" alt="" width="700">
+<br>
 **OSA**  
 Enkelt formulär som skickas som ett mejl till en bröllopsmejl. Med requre på hela namnet, mejl, tacka ja eller nej. Man får också skriva in specialkost och om man tänker ta hotell samt bo med någon om man vill. Detta fyllde jag i sedan i ett exel dokument:<br>
 <br>
@@ -24,18 +25,23 @@ Enkelt formulär som skickas som ett mejl till en bröllopsmejl. Med requre på 
 <img src="screenshots/korrektform1.png" alt="" width="500">
 <img src="screenshots/korrektform2.png" alt="" width="500">
 <img src="screenshots/fel.png" alt="" width="500">
+<br>
 **T**  
 :<br>
-<img src="screenshots/" alt="" width="400">
+<img src="screenshots/" alt="" width="500">
+<br>
 **T**  
 :<br>
-<img src="screenshots/" alt="" width="400">
+<img src="screenshots/" alt="" width="500">
+<br>
 **T**  
 :<br>
-<img src="screenshots/" alt="" width="400">
+<img src="screenshots/" alt="" width="500">
+<br>
 **T**  
 :<br>
-<img src="screenshots/" alt="" width="400">
+<img src="screenshots/" alt="" width="500">
+<br>
 **Hjälp för användaren pga mejlto**  
 Om användaren inte har outlook eller annat installerat så kommer det bli problem eller om personen inte skickar mejlet utan bara har den i utkast:<br>
 <img src="screenshots/mejlto1.png" alt="" width="700"> <br>
