@@ -35,7 +35,7 @@ Information om vart  vigsel samt bröllopsfesten ska vara och tips på hotell me
 **Viktig information**  
 Visar viktig information om bröllopet ser lite olika ut beroende på skärmstorlek:<br>
 <img src="screenshots/viktigtstort.png" alt="" width="500">
-<img src="screenshots/viktigtmellan.png" alt="" width="500">
+<img src="screenshots/mellanviktigt.png" alt="" width="500">
 <br>
 **T**  
 :<br>
