@@ -1,50 +1,63 @@
-# weddingPage/Bröllopssida 
-Min personliga bröllopssida. Denna version innehåller påhittade namn, bilder och platser av integritetsskäl.
+<div style="font-size: 18px; line-height: 1.7;">
 
-Detta är gjort med js kod, html och css och målet var att göra den responsiv. 
+# weddingPage / Bröllopssida
+Min personliga bröllopssida (demoversion). Alla namn, bilder och platser är **utbytta** av integritetsskäl.
 
-## Screenshots med funktioner 
-**Startskärm dator**  
-Här är olika storlekar på startskärmen så att man kan användad en på olika klienter, oavsett storlek finns det en timer som visar hur lång tid det är kvar innan bröllopet:<br>
-<br>
-<img src="screenshots/1stor.png" alt="" width="500">
-<img src="screenshots/2stor.png" alt="" width="500">
-<br>
-**Startskärm padda storlek och mobil**  
-Här är andra olika storlekar på startskärmen så att man kan användad en på olika klienter:<br>
-<br>
-<img src="screenshots/3mellan.png" alt="" width="700">
-<img src="screenshots/4liten.png" alt="" width="700">
-<br>
-**OSA**  
-Enkelt formulär som skickas som ett mejl till en bröllopsmejl. Med requre på hela namnet, mejl, tacka ja eller nej. Man får också skriva in specialkost och om man tänker ta hotell samt bo med någon om man vill. Detta fyllde jag i sedan i ett exel dokument:<br>
-<br>
-<img src="screenshots/storform.png" alt="" width="500">
-<img src="screenshots/fel.png" alt="" width="500">
-<br>
-<img src="screenshots/litenform1.png" alt="" width="500">
-<img src="screenshots/litenform2.png" alt="" width="500">
-<img src="screenshots/korrektform1.png" alt="" width="500">
-<img src="screenshots/korrektform2.png" alt="" width="500">
-<br>
-**Plats och hotell**  
-Information om vart  vigsel samt bröllopsfesten ska vara och tips på hotell med google maps plats så att man bara kan trycka på bilden så kommer det upp direkt i google maps, dessa är utbytta till andra platser:<br>
-<img src="screenshots/1platser.png" alt="" width="500">
-<img src="screenshots/2platser.png" alt="" width="500">
-<br>
-**Viktig information**  
-Visar viktig information om bröllopet ser lite olika ut beroende på skärmstorlek:<br>
-<img src="screenshots/viktigtstort.png" alt="" width="500">
-<img src="screenshots/mellanviktigt.png" alt="" width="500">
-<br>
-**Kontakta toastmaster**  
-Sista delen är att kunna kontakta toastmaster denna har också en honeypot då det går direkt till ens vänners mejl för att undvika att de får robot mejl. :<br>
-<img src="screenshots/kontaktatoast1.png" alt="" width="500">
-<img src="screenshots/kontaktatoast2.png" alt="" width="500">
-<br>
-**Hjälp för användaren pga mejlto**  
-Om användaren inte har outlook eller annat installerat så kommer det bli problem eller om personen inte skickar mejlet utan bara har den i utkast:<br>
-<img src="screenshots/mejlto1.png" alt="" width="700"> <br>
-<img src="screenshots/mejlto2.png" alt="" width="700"> <br>
-<img src="screenshots/mejlto3.png" alt="" width="700"> <br>
-<img src="screenshots/mejlto4.png" alt="" width="700"> <br>
+Byggd med **HTML, CSS och JavaScript** med målet att vara **responsiv** och lättanvänd på dator, surfplatta och mobil.
+
+---
+
+## Skärmdumpar & funktioner
+
+### Startskärm dator
+Här visas startskärmen i desktopvy. En **nedräknare** visar tydligt hur lång tid som återstår till bröllopet.
+
+<img src="screenshots/1stor.png" alt="Startskärm i desktopvy med nedräknare vy 1" width="500">
+<img src="screenshots/2stor.png" alt="Startskärm i desktopvy med nedräknare vy 2" width="500">
+
+### Startskärm surfplatta och mobil
+Responsiv layout som skalar till surfplatta och mobil för bra läsbarhet och navigering.
+
+<img src="screenshots/3mellan.png" alt="Startskärm i surfplatteläge mellanstor vy" width="700">
+<img src="screenshots/4liten.png" alt="Startskärm i mobilvy liten skärm" width="700">
+
+### OSA (RSVP)
+Webbformulär som skickar svar till en bröllopsmejl. **Obligatoriska fält**: fullständigt namn, e-post och svar (tacka ja/nej). Gäster kan även ange **specialkost**, om de vill boka **hotell**, samt om de vill **dela boende**. Exempeldata exporteras sedan till **Excel** för uppföljning. Formuläret har **validering** och tydliga felmeddelanden.
+
+<img src="screenshots/storform.png" alt="OSA-formulär i desktopvy alla fält synliga" width="500">
+<img src="screenshots/fel.png" alt="Validering exempel på felmeddelanden i OSA-formuläret" width="500">
+
+Mobilvyer:
+
+<img src="screenshots/litenform1.png" alt="OSA-formulär i mobilvy sida 1" width="500">
+<img src="screenshots/litenform2.png" alt="OSA-formulär i mobilvy sida 2" width="500">
+<img src="screenshots/korrektform1.png" alt="OSA-formulär korrekt ifyllt steg 1" width="500">
+<img src="screenshots/korrektform2.png" alt="OSA-formulär korrekt ifyllt steg 2" width="500">
+
+### Platser och hotell
+Information om vigsel och bröllopsfest samt tips på hotell. **Kartlänkar** via Google Maps gör att användaren kan trycka på bilden och öppna platsen direkt (alla platser i denna demoversion är utbytta).
+
+<img src="screenshots/1platser.png" alt="Sektion med platser och hotell vy 1 med klickbara kartlänkar" width="500">
+<img src="screenshots/2platser.png" alt="Sektion med platser och hotell vy 2 med klickbara kartlänkar" width="500">
+
+### Viktig information
+Samlar praktisk information för gäster. Innehållet anpassas efter skärmstorlek.
+
+<img src="screenshots/viktigtstort.png" alt="Viktig information i desktopvy" width="500">
+<img src="screenshots/mellanviktigt.png" alt="Viktig information i surfplatteläge" width="500">
+
+### Kontakta toastmaster
+Kontaktformulär till toastmaster. En **honeypot** används för att minska spam eftersom meddelanden går direkt till vännernas e-post.
+
+<img src="screenshots/kontaktatoast1.png" alt="Kontaktformulär till toastmaster vy 1" width="500">
+<img src="screenshots/kontaktatoast2.png" alt="Kontaktformulär till toastmaster vy 2" width="500">
+
+### Hjälp för användare (mailto)
+Vägledning för gäster som saknar konfigurerad e-postklient eller riskerar att lämna meddelanden i utkast. Skärmdumparna visar hur man skickar mejlet korrekt.
+
+<img src="screenshots/mejlto1.png" alt="Hjälpsteg 1 öppna mejlklient via mailto" width="700"><br>
+<img src="screenshots/mejlto2.png" alt="Hjälpsteg 2 kontrollera mottagare och ämne" width="700"><br>
+<img src="screenshots/mejlto3.png" alt="Hjälpsteg 3 skriv meddelande och bekräfta" width="700"><br>
+<img src="screenshots/mejlto4.png" alt="Hjälpsteg 4 skicka och säkerställ att det inte stannar i utkast" width="700"><br>
+
+</div>
