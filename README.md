@@ -1,4 +1,4 @@
-# weddingPage
+# weddingPage/Bröllopssida 
 Min personliga bröllopssida. Denna version innehåller påhittade namn, bilder och platser av integritetsskäl.
 
 Detta är gjort med js kod, html och css och målet var att göra den responsiv. 
@@ -15,9 +15,15 @@ Här är andra olika storlekar på startskärmen så att man kan användad en p�
 <br>
 <img src="screenshots/3mellan.png" alt="" width="700">
 <img src="screenshots/4liten.png" alt="" width="700">
-**T**  
-:<br>
-<img src="screenshots/" alt="" width="400">
+**OSA**  
+Enkelt formulär som skickas som ett mejl till en bröllopsmejl. Med requre på hela namnet, mejl, tacka ja eller nej. Man får också skriva in specialkost och om man tänker ta hotell samt bo med någon om man vill. Detta fyllde jag i sedan i ett exel dokument:<br>
+<br>
+<img src="screenshots/storform.png" alt="" width=500">
+<img src="screenshots/litenform1.png" alt="" width=500">
+<img src="screenshots/litenform2.png" alt="" width=500">
+<img src="screenshots/korrektform1.png" alt="" width=500">
+<img src="screenshots/korrektform2.png" alt="" width=500">
+<img src="screenshots/fel.png" alt="" width=500">
 **T**  
 :<br>
 <img src="screenshots/" alt="" width="400">
