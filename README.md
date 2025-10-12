@@ -20,8 +20,8 @@ Här är andra olika storlekar på startskärmen så att man kan användad en p�
 Enkelt formulär som skickas som ett mejl till en bröllopsmejl. Med requre på hela namnet, mejl, tacka ja eller nej. Man får också skriva in specialkost och om man tänker ta hotell samt bo med någon om man vill. Detta fyllde jag i sedan i ett exel dokument:<br>
 <br>
 <img src="screenshots/storform.png" alt="" width="500">
-<br>
 <img src="screenshots/fel.png" alt="" width="500">
+<br>
 <img src="screenshots/litenform1.png" alt="" width="500">
 <img src="screenshots/litenform2.png" alt="" width="500">
 <img src="screenshots/korrektform1.png" alt="" width="500">
