@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+     <title>Bröllopswebbsida</title>
+</head>
+
+<body>
+
+    <header>
+            <h1 class="grundTitel">[Namn1 och Namn2 Efternamns] bröllop</h1>
+         <nav>
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <!--Detta ör OSA formuläraet kommentera bort efter sista dagen för anmälan har passerat -->
+                <li><a href="OSA.html">Svara på inbjudan</a></li>
+                <li><a href="Plats.html">Plats/hotell</a></li>
+                <li><a href="viktigt.html">Viktigt!</a></li>
+                <li><a href="kontakta.html">Kontakta Toastmasters</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="kontaktaOss">
+            <h2>Kontakta Toastmasters via mejl</h2>
+            <p>Här kan ni skicka mejl som går till [Namn och Namn(Smeknamn)]</p>
+
+            <p class="toast_obs">Om ni ska göra spex eller tal, tänk på att skriva hur lång tid ni behöver för att
+                underlätta planeringen för
+                våra kära toastmasters.
+
+            <p>Om ni inte får svar så kanske erat mejl inte har skickat, kolla i eran epost först.</p>
+            <b class="ringOss">Ni är alltid välkomna att ringa till Namn 1 eller Namn 2 om ni inte får något svar eller
+                inte kan skicka
+                mejl så att vi kan kontaka dem åt er.</b>
+
+        </div>
+        <form id="fragaform" action="#" method="post" onsubmit="submitForm(event)" accept-charset="utf-8">
+            <label for="name">För och efternamn</label>
+            <input type="text" id="name" name="name" required>
+            <label for="subject">Vad handlar ditt meddelande om? Exempelvis 'Tal'</label>
+            <input type="text" id="subject" name="subject" required>
+            <br>
+            <label for="message">Meddelande</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <!-- Honeypot-fält alltså osynligt för användaren och bara för bottar -->
+            <input type="text" id="honeypot" name="honeypot">
+            <button id="skickaFraga" type="submit">Skicka</button>
+        </form>
+    </main>
+
+    <aside id="aside_toast">
+
+    </aside>
+    <footer>
+        <div id="nedRakning"></div>
+        <script src="../js-kod/tid.js"></script>
+
+    </footer>
+    <script src="../js-kod/kontaktaPost.js"></script>
+    
+</body>
+
+</html>

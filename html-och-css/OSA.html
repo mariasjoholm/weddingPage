@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Bröllopswebbsida</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="grundTitel">[Namn1 och Namn2 Efternamns] bröllop</h1>
+         <nav>
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <!--Detta ör OSA formuläraet kommentera bort efter sista dagen för anmälan har passerat -->
+                <li><a href="OSA.html">Svara på inbjudan</a></li>
+                <li><a href="Plats.html">Plats/hotell</a></li>
+                <li><a href="viktigt.html">Viktigt!</a></li>
+                <li><a href="kontakta.html">Kontakta Toastmasters</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main_anmal">
+        <h2>Anmäl dig till bröllopet</h2>
+        <p><strong>Anmäl dig till bröllopet så fort som möjligt, sista datumet är den 10 april 2026</strong></p>
+        <p>Vi ser fram emot att spendera vår speciella dag med er! Var vänlig att fylla i bröllopsformuläret nedanför
+        </p>
+        <p>När du klickar på 'Skicka svar' öppnas ditt e-postprogram med rätt mejladress och formuläret korrekt ifyllt.
+        </p>
+        <p>Den information ni delar här hjälper oss att planera bröllopet, till exempel genom att ta hänsyn till
+            allergier i god tid och hålla koll på bokningar av våra reserverade rum.
+            Tack för att ni hjälper oss göra dagen så bra som möjligt!</p>
+    </main>
+
+    <aside id="aside_OSA">
+        <div class="rubriktextOSA">
+            <h2 id="formH2">Bröllopsformulär</h2>
+            <p class="p1">En anmälan för varje person. </p>
+            <p class="p2"><strong>OBS detta skickas som ett mail📧</strong></p>
+
+        </div>
+
+        <form id="OSA-form" action="#" method="post" onsubmit="return validateForm(event)" accept-charset="utf-8">
+            <label for="first_name">Förnamn:</label>
+            <input type="text" id="first_name" name="first_name">
+            <label for="last_name">Efternamn:</label>
+            <input type="text" id="last_name" name="last_name">
+            <label for="email">E-postadress:</label>
+            <input type="email" id="email" name="email">
+            <div class="svar">
+                <p><b>Jag kommer till bröllopet:</b></p>
+                <label for="attending_yes">Ja:</label>
+                <input type="radio" id="attending_yes" name="attending" value="Ja">
+                <label for="attending_no">Nej:</label>
+                <input type="radio" id="attending_no" name="attending" value="Nej">
+            </div>
+            <label for="special_diet"><b>Specialkost (om någon):</b></label>
+            <textarea id="special_diet" name="special_diet"></textarea>
+            <div class="svarHotell">
+                <label for="hotel_stay">Önskar boende på hotell i Kristinehamn med 10% rabatt på priset. <b>Kom ihåg att
+                        du måste också
+                        själv ringa till hotellet</b></label>
+                <input type="checkbox" id="hotel_stay" name="hotel_stay">
+                <label for="roommate">Om du önskar boende.Vem/vilka delas det i så fall boende med?</label>
+                <textarea id="roommate" name="roommate"></textarea>
+            </div>
+
+            <button id="OSA" type="submit">Skicka svar</button>
+        </form>
+    </aside>
+
+    <footer>
+        <div id="nedRakning"></div>
+        <script src="../js-kod/tid.js"></script>
+    </footer>
+    <script src="../js-kod/post.js"></script>
+</body>
+
+</html>

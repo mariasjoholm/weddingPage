@@ -1,0 +1,650 @@
+/*Hela webbsidan*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.toast_obs {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+/*Honeypot tar bort för användaren men inte för bot*/
+#honeypot {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+/* Style för header*/
+header {
+  width: 100%;
+}
+
+header h1 {
+  color: black;
+  background-color: white;
+  font-family: "Great Vibes";
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  margin-top: 10%;
+}
+
+/*Style för h2*/
+
+h2 {
+  color: black;
+  font-family: "Great Vibes";
+  font-size: 40px;
+}
+
+h3 {
+  color: #2f4f4f;
+  font-family: "Great Vibes";
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/*bilder*/
+.kyrka,
+.hotell,
+.lokal {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border: 1rem solid white;
+  margin-bottom: 10%;
+}
+
+/* Style för meny */
+nav {
+  width: 100%;
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  padding: 1em 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lägger till en skugga för djup */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 2em;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5em 1em;
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  color: #000;
+  background-color: #688468;
+  text-decoration: none;
+}
+
+/*Syle för bara body*/
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../Bilder/leaf.jpg");
+  background-size: cover;
+}
+
+/*Style för main i body*/
+main {
+  padding: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 63%;
+  background-color: white;
+}
+
+/* Style för startContainer på startsidan */
+.startContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+#startText,
+#startBild {
+  width: 49%;
+}
+
+#startBild {
+  display: flex;
+  /* låt img växa i höjd */
+}
+
+#startBild img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  flex: 1 1 auto;
+
+}
+
+/* style för main i startsida*/
+.startsida {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  margin-top: 5%;
+}
+
+#startText h1 {
+  color: #2f4f4f;
+  margin-bottom: 10%;
+}
+
+#startText h4 {
+  color: #2f4f4f;
+}
+
+.startsida p {
+  margin-bottom: 5%;
+}
+
+.startsida img {
+  width: 100%;
+}
+
+/*Style för Anmäl dig*/
+
+.main_anmal h2 {
+  margin-bottom: 3%;
+  color: #2f4f4f;
+}
+
+.main_anmal p {
+  margin-bottom: 3%;
+}
+
+.main_anmal li {
+  margin-top: 3%;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.main_anmal li h4 {
+  font-size: 30px;
+  font-family: "Great Vibes";
+  color: #2f4f4f;
+}
+
+/*Style för aside i body*/
+aside {
+  width: 31%;
+  margin-left: 2%;
+  background-color: white;
+  padding: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+/*Viktig information*/
+.mainViktigt p {
+  margin-top: 3%;
+  font-size: 15px;
+}
+
+.mainViktigt li {
+  font-size: 15px;
+  margin-top: 3%;
+}
+
+.mainViktigt li p {
+  margin-top: 3%;
+  font-size: 15px;
+}
+
+#aside_viktigt {
+  width: 31%;
+  border: 10px solid white;
+  padding: 2%;
+  background-image: url("../Bilder/hampuschan.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#aside_toast {
+  width: 31%;
+  border: 10px solid white;
+  padding: 2%;
+  background-image: url("../Bilder/skal.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Style för formulär OSA anmäl dig */
+#OSA-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+
+.rubriktextOSA {
+  text-align: center;
+}
+
+.rubriktextOSA p {
+  margin-bottom: 1em;
+}
+
+.p1,
+.p2 {
+  text-align: center;
+  font-size: 16px;
+}
+
+#OSA-form label {
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}
+
+#OSA-form input[type="text"],
+#OSA-form input[type="email"],
+#OSA-form textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+  width: 100%;
+}
+
+.svar input[type="radio"] {
+  margin-top: 3%;
+}
+
+.svarHotell label[for="roommate"] {
+  display: block;
+  margin-top: 1em;
+  padding: 0;
+}
+
+#OSA-form button {
+  background-color: #406341;
+  color: white;
+  padding: 0.8em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+}
+
+#OSA-form button:hover {
+  background-color: #a6cca8;
+}
+
+/* Plats CSS*/
+.platsMain h2 {
+  color: #2f4f4f;
+  font-family: "Great Vibes";
+  font-size: 40px;
+}
+
+.platsMain p {
+  margin-bottom: 3%;
+}
+
+/*Formulär för frågor kontaka oss*/
+
+.kontaktaOss {
+  text-align: center;
+}
+
+#fragaform {
+  display: flex;
+  flex-direction: column;
+}
+
+#fragaform label,
+#fragaform input,
+#fragaform textarea,
+#fragaform button {
+  margin-bottom: 1px;
+  width: 100%;
+}
+
+#fragaform input,
+#fragaform textarea {
+  box-sizing: border-box;
+}
+
+#skickaFraga,
+#OSA,
+#tillbakaKnapp {
+  padding: 1%;
+  background-color: #406341;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#email,
+#name,
+#subject {
+  padding: 2%;
+}
+
+#skickaFraga:hover,
+#OSA:hover,
+#tillbakaKnapp:hover {
+  background-color: #a6cca8;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 2% 5%;
+  margin-top: 2%;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+footer p,
+footer a {
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  margin: 0.5em 0;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+footer a:hover {
+  color: #00ff00;
+  text-decoration: underline;
+}
+
+/* Svarsida CSS */
+.svarMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.svarMain div {
+  width: 100%;
+}
+
+.svarMain p,
+.svarMain h1,
+.svarMain h3 {
+  width: 100%;
+  margin-bottom: 3%;
+  text-align: left;
+}
+
+.svarMain h1 {
+  font-size: 40px;
+  font-family: "Great Vibes";
+  color: #2f4f4f;
+}
+
+.svarMain img {
+  border: 10px solid black;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tillbakaKnapp {
+  width: 100%;
+}
+
+/*Mellanstora  skrämen*/
+@media (min-width: 671px) and (max-width: 1050px) {
+  body {
+    flex-direction: column;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
+  }
+
+  .grundTitel {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  aside {
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
+  }
+
+  /*Style för meny*/
+  nav {
+    padding: 0.5em 0;
+    /* Mindre padding */
+  }
+
+  nav ul {
+    flex-direction: column;
+    /* Vertikal layout */
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.5em 0;
+  }
+
+  nav ul li a {
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+  }
+
+  .name-field input[type="text"],
+  .name-field textarea {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #aside_viktigt {
+    display: none;
+  }
+
+  #aside_toast {
+    display: none;
+  }
+}
+
+/*Formulär för frågor kontaka oss*/
+.kontaktaOss {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+/*Minsta skrämen*/
+@media (max-width: 670px) {
+  @media (max-width: 670px) {
+    #startText,
+    #startBild {
+      width: 100%;
+    }
+
+    #startBild img {
+      height: auto;
+    } 
+  }
+
+  body {
+    flex-direction: column;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
+  }
+
+  .grundTitel {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  aside {
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
+  }
+  /*Style för meny*/
+  nav {
+    padding: 0.5em 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    /* Vertikal layout */
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.5em 0;
+  }
+
+  nav ul li a {
+    padding: 0.5em 2em;
+
+    font-size: 1.2em;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+  }
+
+  .name-field input[type="text"],
+  .name-field textarea {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #aside_viktigt {
+    display: none;
+  }
+
+  #aside_toast {
+    display: none;
+  }
+
+  footer {
+    padding: 5%;
+  }
+
+  footer p,
+  footer a {
+    font-size: 1.2em;
+  }
+
+  /* Style för startsidan */
+  .startsida main {
+    width: 100%;
+  }
+
+  .startContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* Justera bredden för att få dem att ligga bredvid varandra */
+  #startText,
+  #startBild {
+    width: 49%;
+  }
+
+  #startBild img {
+    width: 100%;
+  }
+
+  /* style för main i startsida*/
+  .startsida {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  #startText h1 {
+    margin-bottom: 3%;
+  }
+
+  .startsida p {
+    margin-bottom: 3%;
+  }
+
+  /*OSA formulär liten*/
+  #OSA-form input[type="text"],
+  #OSA-form input[type="email"],
+  #OSA-form textarea {
+    width: 100%;
+  }
+
+  #OSA-form button {
+    width: 100%;
+  }
+
+  /*Formulär för frågor kontaka oss*/
+  .kontaktaOss {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}

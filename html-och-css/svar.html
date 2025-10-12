@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+     <title>Bröllopswebbsida</title>
+</head>
+<body>
+    <header>
+      <h1 class="grundTitel">[Namn1 och Namn2 Efternamns] bröllop</h1>
+       
+    </header>
+
+    <main class="svarMain">
+        <div>
+            <h1>VÄNTA STOPP! Viktigt att vara säker på för att veta att din anmälan har kommit in</h1>
+            <p>Så här ser det ut om du har gjort rätt, läs igenom dessa tre steg</p>
+            <h3>1. Välj e-postsystem eller att det öppnas automatiskt</h3>
+            <p>Om det inte öppnas automatiskt så ska du välja ett e-postsystem. Oftast Gmail 
+                eller Outlook. Om det öppnas ett e-postsystem automatiskt så kan du direkt gå till steg 2. 
+            </p>
+            <img src="../Bilder/skaSkicka.jpg" alt="Skickat mail i appen" width="40%" height="auto">
+            <h3>2.Du ska skicka innehållet i mailet </h3>
+            <p>är du klickade på skickaknappen, eventuellt valt en app/system, 
+                så öppnades e-postappen och du måste skicka innehållet som ett vanligt e-postmeddelande.</p>
+                <img src="../Bilder/Skickar.jpg" alt="Skickat mail i appen" width="40%" height="auto">
+                <h3>3.Ditt meddelande finns som skickat i din e-post</h3>
+                <p>Om du kan se ditt e-postmeddelande som skickat och inte i utkast eller något annat så ska det vara skickat.</p>
+                <img src="../Bilder/Skickat.jpg" alt="Skickat mail i appen" width="40%" height="auto">
+
+                <h3>Om det är krångel eller om du är osäker</h3>
+                <p>Om du kontaktar Namn 1 eller Namn2 så kan du vara säker på att vi hjälper dig eller tar emot din anmälan via telefon. 
+                    Då kan du känna dig trygg med att din anmälan är mottagen.
+                </p>
+                <button id="tillbakaKnapp" type="button">Tillbaka till startsidan</button>
+            
+        </div>
+        
+    </main>
+
+    <script>
+        document.getElementById('tillbakaKnapp').addEventListener('click', function() {
+          window.location.href = 'index.html';
+        });
+      </script>
+</body>
+</html>
