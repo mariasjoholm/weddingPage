@@ -27,9 +27,10 @@ Enkelt formulär som skickas som ett mejl till en bröllopsmejl. Med requre på 
 <img src="screenshots/korrektform1.png" alt="" width="500">
 <img src="screenshots/korrektform2.png" alt="" width="500">
 <br>
-**T**  
-:<br>
-<img src="screenshots/" alt="" width="500">
+**Plats och hotell**  
+Information om vart  vigsel samt bröllopsfesten ska vara och tips på hotell:<br>
+<img src="screenshots/1platser.png" alt="" width="500">
+<img src="screenshots/2platser.png" alt="" width="500">
 <br>
 **T**  
 :<br>
