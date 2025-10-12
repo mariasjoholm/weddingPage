@@ -28,6 +28,9 @@ Här är andra olika storlekar på startskärmen så att man kan användad en p�
 **T**  
 :<br>
 <img src="screenshots/" alt="" width="400">
-**T**  
-:<br>
-<img src="screenshots/" alt="" width="400">
+**Hjälp för användaren pga mejlto**  
+Om användaren inte har outlook eller annat installerat så kommer det bli problem eller om personen inte skickar mejlet utan bara har den i utkast:<br>
+<img src="screenshots/mejlto1.png" alt="" width="400"> <br>
+<img src="screenshots/mejlto2.png" alt="" width="400"> <br>
+<img src="screenshots/mejlto3.png" alt="" width="400"> <br>
+<img src="screenshots/mejlto4.png" alt="" width="400"> <br>
