@@ -54,9 +54,13 @@ Kontaktformulär till toastmaster. En **honeypot** används för att minska spam
 ### Hjälp för användare (mailto)
 Vägledning för gäster som saknar konfigurerad e-postklient eller riskerar att lämna meddelanden i utkast. Skärmdumparna visar hur man skickar mejlet korrekt.
 
-<img src="screenshots/mejlto1.png" alt="Hjälpsteg 1 skicka och säkerställ att det inte stannar i utkast" width="700"><br>
-<img src="screenshots/mejlto2.png" alt="Hjälpsteg 2 skicka och säkerställ att det inte stannar i utkast" width="700"><br>
-<img src="screenshots/mejlto3.png" alt="Hjälpsteg 3 skicka och säkerställ att det inte stannar i utkast" width="700"><br>
-<img src="screenshots/mejlto4.png" alt="Hjälpsteg 4 skicka och säkerställ att det inte stannar i utkast" width="700"><br>
+<img src="screenshots/mejlto1.png" alt="Hjälpsteg 1 skicka och säkerställ att det inte stannar i utkast" width="700">
+
+<img src="screenshots/mejlto2.png" alt="Hjälpsteg 2 skicka och säkerställ att det inte stannar i utkast" width="700">
+
+<img src="screenshots/mejlto3.png" alt="Hjälpsteg 3 skicka och säkerställ att det inte stannar i utkast" width="700">
+
+<img src="screenshots/mejlto4.png" alt="Hjälpsteg 4 skicka och säkerställ att det inte stannar i utkast" width="700">
+
 
 </div>
