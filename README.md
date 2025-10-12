@@ -7,8 +7,8 @@ Detta är gjort med js kod, html och css och målet var att göra den responsiv.
 **Startskärm dator**  
 Här är olika storlekar på startskärmen så att man kan användad en på olika klienter:<br>
 <br>
-<img src="screenshots/1stor.png" alt="" width="600">
-<img src="screenshots/2stor.png" alt="" width="600">
+<img src="screenshots/1stor.png" alt="" width="500">
+<img src="screenshots/2stor.png" alt="" width="500">
 
 **Startskärm padda storlek och mobil**  
 Här är andra olika storlekar på startskärmen så att man kan användad en på olika klienter:<br>
